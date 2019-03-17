@@ -1,200 +1,301 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Car Accident Trajectory dataset</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Car Accident Trajectory dataset</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="author" content=""/>
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css">
+    <!-- Flaticons  -->
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<!--<div class="author-img" style="background-image: url(images/about.jpg);"></div>-->
-				<h1 id="colorlib-logo"><a href="#">CAT</a></h1>
-				<span class="position"><a href="#">Car Accident Trajectories dataset</span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="download">Download</a></li>
-						<li><a href="#" data-nav-section="demo">Demo</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-					</ul>
-				</div>
-			</nav>
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="https://cdn.rawgit.com/pcooksey/bibtex-js/ef59e62c/src/bibtex_js.js"></script>
+    <script type="text/javascript" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
 
-			<div class="colorlib-footer">
-				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
+</head>
+<body>
+<div id="colorlib-page">
+    <div class="container-wrap">
+        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar"
+           aria-expanded="false" aria-controls="navbar"><i></i></a>
+        <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+            <div class="text-center">
+                <!--<div class="author-img" style="background-image: url(images/about.jpg);"></div>-->
+                <h1 id="colorlib-logo"><a href="#">CAT</a></h1>
+                <span class="position"><a href="#">Car Accident Trajectories dataset</span>
+            </div>
+            <nav id="colorlib-main-menu" role="navigation" class="navbar">
+                <div id="navbar" class="collapse">
+                    <ul>
+                        <li><a href="#" data-nav-section="home">Home</a></li>
+                        <li><a href="#" data-nav-section="download">Download</a></li>
+                        <li><a href="#" data-nav-section="demo">Demo</a></li>
+                        <li><a href="#" data-nav-section="others">Other information</a></li>
+                        <li><a href="#" data-nav-section="contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
 
-		</aside>
+            <div class="colorlib-footer">
+                <p>
+                    <small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                        All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i>
+                        by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span>
+                        <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span>
+                    </small>
+                </p>
+                <ul>
+                    <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li><a href="#"><i class="icon-twitter2"></i></a></li>
+                    <li><a href="#"><i class="icon-instagram"></i></a></li>
+                    <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+                </ul>
+            </div>
 
-		<div id="colorlib-main">
+        </aside>
 
-			<section class="colorlib-blog" data-section="home">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Introduction</span>
-							<h2 class="colorlib-heading">Introduction</h2>
-						</div>
-					</div>
-					<div class="row">
-					</div>
-				</div>
-			</section>
+        <div id="colorlib-main">
 
-			<section class="colorlib-blog" data-section="download">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Download</span>
-							<h2 class="colorlib-heading">Download</h2>
-						</div>
-					</div>
-					<div class="row">
-						You can get the trajectories from below targets.
-						All data are saved in tab-based CSV files.
-						<ul>
-							<li><a href="https://github.com/mental689/cadp_trajectory/tree/master/dataset/train">Training set</a> </li>
-						</ul>
-					</div>
-				</div>
-			</section>
-			<section class="colorlib-blog" data-section="demo">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Demo</span>
-							<h2 class="colorlib-heading">Sample images</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="container-wrap">
-							<img src="images/gt_214.jpg" width="256"/>
-							<img src="images/gt_404.jpg" width="256"/>
-							<img src="images/gt_1115.jpg" width="256"/>
-							<img src="images/gt_1117.jpg" width="256"/>
-							<img src="images/gt_1121.jpg" width="256"/>
-							<img src="images/gt_1123.jpg" width="256"/>
-							<!--<img src="images/gt_1252.jpg" width="256"/>-->
-							<img src="images/gt_1253.jpg" width="256"/>
-							<!--<img src="images/gt_1254.jpg" width="256"/>-->
-							<img src="images/gt_1263.jpg" width="256"/>
-							<img src="images/gt_1347.jpg" width="256"/>
-						</div>
-						<p>
-							Person/Vehicle trajectories in CADP dataset.
-							Points in the same color define a trajectory.
-							Traffic scenes can be very dense (c,f) and the accidents can happen clearly (d) or in a small corner (a).
-							These movement patterns are often unusual and can be considered <i>unacceptable</i> in social contexts.}
-						</p>
-					</div>
-				</div>
-			</section>
+            <section class="colorlib-blog" data-section="home">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                             data-animate-effect="fadeInLeft">
+                            <span class="heading-meta">Introduction</span>
+                            <h2 class="colorlib-heading">Introduction</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <bibtex src="bibtex.bib"></bibtex>
+                        <p>
+                            To address the problem of predicting future trajectories of person and vehicles in
+                            surveillance applications.
+                            we collected and annotated a challenging set of traffic camera footages.
+                            This dataset is named Car Accident Trajectories (CAT) dataset, contains 2184 person/vehicle
+                            annotations from 205 videos which has been downloaded from YouTube.
+                            We divided it (by random sampling) to 1208 trajectories for training and 976 trajectories
+                            for testing.
+                            Details to download this CAT dataset can be found in <a href="/#download">Download</a>
+                            section.
 
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="mailto:tuannguyenanh@g.ecc.u-tokyo.ac.jp">tuannguyenanh@g.ecc.u-tokyo.ac.jp</a></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+                            <center><img src="images/gt_1347.jpg" width="640"/></center>
 
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
+                        <div class="section @inproceedings">
+                            <div class="sort year" extra="ASC number">
+                                <div id="bibtex_display1" bibtexkeys="Nguyen2018"></div>
+                            </div>
+                        </div>
+                        </p>
+                        <p>This CAT dataset was built for the following problem:<br/>
+                            <b>Problem:</b> Given a trajectory of \(T+\Delta\) points \(\mathbf{s}_t,~t=1,\ldots,T+\Delta\) where
+                            \(\mathbf{s}_t=[x_t,y_t]\) is the coordinates of points in a 2D plane.
+                            We let the algorithm <b>observe</b> first \(T\) points, and we ask it to <b>predict</b> the next \(\Delta\) points.
+                            In another word, we want to build a computer algorithm \(f\) which can infer the future from past observations:
+                            $$f(\{\mathbf{s}_t\}_{t=1}^T)=\{\mathbf{s}_t\}_{t=T+1}^{T+\Delta}$$
+                            A common setting for CAT dataset is \((T,\Delta)=(8,12)\), i. e., given 8 points from the past, predict next 12 points of the trajectory.
+                        </p>
+                        <div class="bibtex_template">
+                            <!--<li>-->
+                            <span class="if author">
+                                <b><span class="author"></span></b>
+                            </span>
+                            <span class="if year">
+                                (<span class="year"></span>).
+                            </span>
+                            <a class="url"><span class="title"></span></a>.
+                            <span class="if journal">
+                                In <span class="journal" style="font-style: italic;"></span>.
+                            </span>
+                            <span class="if booktitle">
+                                In <span class="booktitle" style="font-style: italic;"></span>.
+                            </span>
+                            <span class="if volume" style="font-style: italic;">
+                                <span class="volume"></span>
+                            </span>
+                            <span class="if number" style="font-style: italic;">
+                                (<span class="number"></span>)</span>
+                            <span class="if pages">
+                                <span class="pages"></span>.
+                            </span>
+                            <span class="if edition">
+                                <span class="edition"></span> ed.,
+                            </span>
+                            <span class="if publisher">
+                                <span class="publisher"></span>.
+                            </span>
+                            <!--</li>-->
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-	</body>
+            <section class="colorlib-blog" data-section="download">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                             data-animate-effect="fadeInLeft">
+                            <span class="heading-meta">Download</span>
+                            <h2 class="colorlib-heading">Download</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        You can get the trajectories from below targets.
+                        All data are saved in tab-based CSV files.
+                        <ul>
+                            <li><a href="https://github.com/mental689/cadp_trajectory/tree/master/dataset/train">Training
+                                set</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="colorlib-blog" data-section="demo">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                             data-animate-effect="fadeInLeft">
+                            <span class="heading-meta">Demo</span>
+                            <h2 class="colorlib-heading">Sample images</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="container-wrap">
+                            <img src="images/gt_214.jpg" width="256"/>
+                            <img src="images/gt_404.jpg" width="256"/>
+                            <img src="images/gt_1115.jpg" width="256"/>
+                            <img src="images/gt_1117.jpg" width="256"/>
+                            <img src="images/gt_1121.jpg" width="256"/>
+                            <img src="images/gt_1123.jpg" width="256"/>
+                            <!--<img src="images/gt_1252.jpg" width="256"/>-->
+                            <img src="images/gt_1253.jpg" width="256"/>
+                            <!--<img src="images/gt_1254.jpg" width="256"/>-->
+                            <img src="images/gt_1263.jpg" width="256"/>
+                            <img src="images/gt_1347.jpg" width="256"/>
+                        </div>
+                        <p>
+                            Person/Vehicle trajectories in CAT dataset.
+                            Points in the same color define a trajectory.
+                            Traffic scenes can be very dense and the accidents can happen clearly or in a
+                            small corner.
+                            These movement patterns are often unusual and can be considered <i>unacceptable</i> in
+                            social contexts.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="colorlib-contact" data-section="others">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                             data-animate-effect="fadeInLeft">
+                            <span class="heading-meta">Other information</span>
+                            <h2 class="colorlib-heading">Other information</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        If you want to use spatio-temporal annotations, please consider to use our another dataset:
+                        <div class="section @inproceedings">
+                            <div class="sort year" extra="ASC number">
+                                <div id="bibtex_display" bibtexkeys="ShahLamareNguyen2018"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="colorlib-contact" data-section="contact">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                             data-animate-effect="fadeInLeft">
+                            <span class="heading-meta">Get in Touch</span>
+                            <h2 class="colorlib-heading">Contact</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="colorlib-feature colorlib-feature-sm animate-box"
+                                 data-animate-effect="fadeInLeft">
+                                <div class="colorlib-icon">
+                                    <i class="icon-globe-outline"></i>
+                                </div>
+                                <div class="colorlib-text">
+                                    <p><a href="mailto:tuannguyenanh@g.ecc.u-tokyo.ac.jp">tuannguyenanh@g.ecc.u-tokyo.ac.jp</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div><!-- end:colorlib-main -->
+    </div><!-- end:container-wrap -->
+</div><!-- end:colorlib-page -->
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="js/jquery.flexslider-min.js"></script>
+<!-- Owl carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- Counters -->
+<script src="js/jquery.countTo.js"></script>
+
+
+<!-- MAIN JS -->
+<script src="js/main.js"></script>
+
+</body>
 </html>
 
